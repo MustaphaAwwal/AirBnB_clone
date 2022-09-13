@@ -1,0 +1,107 @@
+
+.places h1{
+    text-align: left;
+    font-size: 30px;
+    }
+.place-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: solid  #FF5A5F 1px;
+    border-radius: 4px;
+}
+article h2{
+
+    font-size: 30px;
+    text-align: center;
+}
+.place-head{
+display: flex;
+}
+.at-place{
+    width: 100%;
+    position: relative;
+    bottom: 25px;
+}
+.price_by_night{
+    color: #FF5A5F ;
+    border: #FF5A5F 4px solid;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;  
+}
+.information{
+    border-bottom:  #DDDDDD solid 1px;
+    border-top:  #DDDDDD solid 1px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.max_guest, .number_rooms, .number_bathrooms{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.guest_icon{
+    width: inherit;
+    height:inherit;
+    background-image: url(../images/icon_group.png) ;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.rooms_icon{
+    width: inherit;
+    height:inherit;
+    background-image: url(../images/icon_bed.png) ;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+}
+
+.bathrooms_icon{
+    width: inherit;
+    height:inherit;
+    background-image: url(../images/icon_bath.png) ;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-position: center; 
+}
+.guest_number h2, .rooms_number h2, .bathrooms_number h2 {
+    font-size: 14px;
+    color:  #484848;
+    font-weight: normal;
+    margin-top: -10px;
+}
+.user{
+    font-size: 14px;
+    color: #484848;
+    text-align: left;
+    margin-top: 15px;
+}
+.description{
+    font-size: 14px;
+    text-align: left;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
